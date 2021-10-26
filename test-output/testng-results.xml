@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="2" total="4" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="12105" started-at="2021-10-23T21:13:08Z" finished-at="2021-10-23T21:13:20Z">
+    <groups>
+      <group name="regression">
+        <method signature="TestNGGroup.testCase1()[pri:0, instance:com.test.TestNGGroup@5c3bd550]" name="testCase1" class="com.test.TestNGGroup"/>
+        <method signature="TestNGGroup.testCase2()[pri:0, instance:com.test.TestNGGroup@5c3bd550]" name="testCase2" class="com.test.TestNGGroup"/>
+      </group> <!-- regression -->
+      <group name="smoke">
+        <method signature="TestNGGroup.testCase1()[pri:0, instance:com.test.TestNGGroup@5c3bd550]" name="testCase1" class="com.test.TestNGGroup"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test name="Test" duration-ms="12105" started-at="2021-10-23T21:13:08Z" finished-at="2021-10-23T21:13:20Z">
+      <class name="com.test.TestNGGroup">
+        <test-method status="PASS" signature="launchBrowse()[pri:0, instance:com.test.TestNGGroup@5c3bd550]" name="launchBrowse" is-config="true" duration-ms="750" started-at="2021-10-23T21:13:08Z" finished-at="2021-10-23T21:13:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowse -->
+        <test-method status="PASS" signature="testCase1()[pri:0, instance:com.test.TestNGGroup@5c3bd550]" name="testCase1" duration-ms="5505" started-at="2021-10-23T21:13:08Z" finished-at="2021-10-23T21:13:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase1 -->
+        <test-method status="PASS" signature="testCase2()[pri:0, instance:com.test.TestNGGroup@5c3bd550]" name="testCase2" duration-ms="5076" started-at="2021-10-23T21:13:14Z" finished-at="2021-10-23T21:13:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase2 -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.test.TestNGGroup@5c3bd550]" name="closeBrowser" is-config="true" duration-ms="735" started-at="2021-10-23T21:13:19Z" finished-at="2021-10-23T21:13:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.test.TestNGGroup -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
